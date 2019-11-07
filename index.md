@@ -13,7 +13,7 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 
 
 ## Downloads
-#### [Latest draft of the book](book/sml-book.pdf)
+[Latest draft of the book](book/sml-book.pdf)
 
 
 ##  Table of Contents
@@ -28,4 +28,4 @@ TODO
 
 
 ## Help us to improve the book
-#### [Report errata and feedback](https://github.com/uu-sml/sml-book-page/issues).
+[Report errata and feedback](https://github.com/uu-sml/sml-book-page/issues).
