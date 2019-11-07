@@ -28,4 +28,4 @@ TODO
 
 
 ## Help us to improve the book
-[Report errata and feedback](https://github.com/uu-sml/sml-book-page/issues).
+[Report errata and feedback](https://github.com/uu-sml/sml-book-page/issues)
