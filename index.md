@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Supervised Machine Learning book
 tagline: Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten and Thomas B. Schön
 description: Site for the supervised machine learning book
