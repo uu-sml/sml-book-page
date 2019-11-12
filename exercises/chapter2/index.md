@@ -3,4 +3,4 @@ layout: default
 title: Exercises chapter 2 for the Supervised Machine Learning book
 ---
 
-Hi!
+1. [Linear regression](linear-regression-1.md)
