@@ -5,5 +5,5 @@ collections_dir: exercises
 collections:
   chapter2:
     output: true
-    permalink: "/:collection:/name/"
+    permalink: "/:collection/:name/"
 
