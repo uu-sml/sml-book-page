@@ -15,11 +15,11 @@ When we developed the course [Statistical Machine Learning](http://www.it.uu.se/
 A draft of the book is available on this page. **We will keep a PDF of the book freely available also after publication.**
 
 
-## Downloads
+## The book
 [Latest draft of the book](book/sml-book.pdf)
 
 
-##  Table of Contents
+###  Table of Contents
 
 TODO
 
