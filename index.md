@@ -16,7 +16,7 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 
 
 ## The book
-### Table of Contents
+**Table of Contents**
 
 1. Introduction
 2. Four basic models
@@ -27,5 +27,4 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 ## [Exercise material](exercises)
 
 
-## Help us to improve the book
-[Report errata and feedback](https://github.com/uu-sml/sml-book-page/issues)
+## [Report mistakes and give feedback](https://github.com/uu-sml/sml-book-page/issues)
