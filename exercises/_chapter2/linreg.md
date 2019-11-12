@@ -1,4 +1,5 @@
 ---
+title: Linear regression
 style: default
 ---
 
