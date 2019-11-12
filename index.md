@@ -25,7 +25,7 @@ TODO
 
 
 
-## Exercise material
+## [Exercise material](exercises)
 
 [Chapter 2](exercises/chapter2)
 
