@@ -56,39 +56,38 @@ try to make an educated guess how the normal equations can be generalized to the
 
 ### a
 Write the problem as
-$
-\underbrace{\begin{bmatrix}y_1 \\ y_2\end{bmatrix}}_{\bf y} =
-\underbrace{\begin{bmatrix} 1 & x_1 \\ 1 & x_2 \end{bmatrix}}_{\X}
-\underbrace{\begin{bmatrix}\theta_0 \\ \theta_1\end{bmatrix}}_{\bf\theta} + \beps.
-$
-The maximum likelihood solution to this problem is equivalent to the least square solution given by $\X^\Transp \bf X\widehat{\bf\theta} = \bf X^\Transp \bf y$. We thus solve it (using, e.g., Gauss elimination),
+$\underbrace{\begin{bmatrix}y_1 \\ y_2\end{bmatrix}}_{\bf y} =
+\underbrace{\begin{bmatrix} 1 & x_1 \\ 1 & x_2 \end{bmatrix}}_{\bf{X}}
+\underbrace{\begin{bmatrix}\theta_0 \\ \theta_1\end{bmatrix}}_{\bf\theta} + \bf\eps.$
+
+The maximum likelihood solution to this problem is equivalent to the least square solution given by $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$. We thus solve it (using, e.g., Gauss elimination),
 \begin{equation}
-\begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^\Transp\begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^\Transp\begin{bmatrix}-1 \\ 1\end{bmatrix} \Rightarrow 
+\begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^T\begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^T\begin{bmatrix}-1 \\ 1\end{bmatrix} \Rightarrow 
 \begin{bmatrix}2 & 5\\5 & 13\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}0 \\ 1\underline{}\end{bmatrix} \Rightarrow \widehat{\bf\theta} = \begin{bmatrix}-5 \\ 2\end{bmatrix}.
 \end{equation}
 %The normal equations would give the same result (why?). 
 The prediction for $x_\star=4$ becomes $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = 3$.
 
 ### b
-Again, the solution is given by the normal equations $\X^\Transp \bf X\widehat{\bf\theta} = \bf X^\Transp \bf y$
+Again, the solution is given by the normal equations $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$
 \begin{equation}
-(\X^\Transp \bf X) \widehat{\bf\theta} = \bf X^\Transp \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{6}\begin{bmatrix}-23 \\ 9\end{bmatrix}.
+(\bf{X}^T \bf X) \widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{6}\begin{bmatrix}-23 \\ 9\end{bmatrix}.
 \end{equation}
 The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$.
 
 ### c
-With no intercept term, we get another $\X$ matrix,
+With no intercept term, we get another $\bf{X}$ matrix,
 $\begin{bmatrix} 2 \\ 3 \\ 4 \end{bmatrix}$,
 and hence
 \begin{equation}
-\bf X^\Transp \bf X\widehat{\bf\theta} = \bf X^\Transp \bf y \Rightarrow \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}2\\3\\4\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{9}{29},
+\bf X^T \bf X\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}2\\3\\4\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{9}{29},
 \end{equation}
 with prediction $\widehat{y}_\star = \widehat{\theta}_1 x_\star = \frac{45}{29} \approx 1.55$ for $x_\star=5$.
 
 ### d
-We now have to use the solution to the Ridge Regression problem instead, $(\X^\Transp\bf X + \I_2)\widehat{\theta} = \bf X^\Transp \bf y$,
+We now have to use the solution to the Ridge Regression problem instead, $(\bf{X}^T\bf X + \I_2)\widehat{\theta} = \bf X^T \bf y$,
 \begin{equation}
-(\X^\Transp\bf X + \I_2)\widehat{\bf\theta} = \bf X^\Transp \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}
+(\bf{X}^T\bf X + \I_2)\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}
 1 & 0 \\ 0 & 1 \end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{39}\begin{bmatrix}-21 \\ 18\end{bmatrix}.
 \end{equation}
 The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{69}{39} \approx 1.77$.
@@ -96,9 +95,9 @@ The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 
 ### e
 The extension of the nomal equations are 
 \begin{equation}
-\X^\Transp \X\widehat{\B} = \X^\Transp \Y.\label{multls}
+\bf{X}^T \bf{X}\widehat{\B} = \bf{X}^T \Y.\label{multls}
 \end{equation}Note that this is equivalent to making a separate least square computation for each column in $\Y$.
 \begin{multline}
-\X^\Transp \X\widehat{\B} = \X^\Transp \Y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\B} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 & 0 \\ 1 & 2 \\ 2 & -1\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\B} = \frac{1}{6}\begin{bmatrix}-23 & 11\\ 9 & -3\end{bmatrix}.
+\bf{X}^T \bf{X}\widehat{\B} = \bf{X}^T \Y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\B} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 & 0 \\ 1 & 2 \\ 2 & -1\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\B} = \frac{1}{6}\begin{bmatrix}-23 & 11\\ 9 & -3\end{bmatrix}.
 \end{multline}
 Note that the first column is identical to (b).	
