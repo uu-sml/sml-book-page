@@ -67,12 +67,12 @@ The maximum likelihood solution to this problem is equivalent to the least squar
 \begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^T\begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^T\begin{bmatrix}-1 \\ 1\end{bmatrix} \Rightarrow 
 \begin{bmatrix}2 & 5\\5 & 13\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}0 \\ 1\underline{}\end{bmatrix} \Rightarrow \widehat{\bf\theta} = \begin{bmatrix}-5 \\ 2\end{bmatrix}.
 \end{equation}$$</div>
-The prediction for <span>$$x_\star=4$ becomes $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = 3$$</span>.
+The prediction for <span>$$x_\star=4$$ becomes $$\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = 3$$</span>.
 
 ### b
 Again, the solution is given by the normal equations $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$
 $$\begin{equation}(\bf{X}^T \bf X) \widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{6}\begin{bmatrix}-23 \\ 9\end{bmatrix}.\end{equation}$$
-The prediction for <span>$$x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$$</span>.
+The prediction for <span>$$x_\star=5$$ is hence $$\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$$</span>.
 
 ### c
 With no intercept term, we get another $\bf{X}$ matrix,
@@ -83,7 +83,7 @@ with prediction <span>$$\widehat{y}_\star = \widehat{\theta}_1 x_\star = \frac{4
 
 ### d
 We now have to use the solution to the Ridge Regression problem instead, $(\bf{X}^T\bf X + \I_2)\widehat{\theta} = \bf X^T \bf y$,
-$$\begin{equation}(\bf{X}^T\bf X + \I_2)\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}  & 0 \\ 0 & 1 \end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{39}\begin{bmatrix}-21 \\ 18\end{bmatrix}.\end{equation}$$
+$$\begin{equation}(\bf{X}^T\bf X + \bf{I}_2)\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}  & 0 \\ 0 & 1 \end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{39}\begin{bmatrix}-21 \\ 18\end{bmatrix}.\end{equation}$$
 The prediction for $x_\star=5$ is hence $$\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{69}{39} \approx 1.77$$.
 
 ### e
