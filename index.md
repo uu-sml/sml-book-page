@@ -27,7 +27,7 @@ TODO
 
 ## Exercise material
 
-TODO
+[Chapter 2](exercises/chapter2)
 
 
 ## Help us to improve the book
