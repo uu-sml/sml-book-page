@@ -1,6 +1,6 @@
 ---
 layout: problem
-title: Exercise problems for supervised machine learning
+title: Exercises
 ---
 
 ## Chapter 2
