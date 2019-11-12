@@ -3,8 +3,12 @@ layout: problem
 title: Linear regression
 ---
 
+\(
+   \def\B{{\bf B}}
+\)
+
 <ol type="a"><li>
-Assume that you record a scalar input $$x$$ and a scalar output $$y$$. First, you record $$x_1 = 2, y_1 = -1$$, and thereafter $$x_2 = 3, y_2 = 1$$. Assume a linear regression model $$y = \beta_0 + \beta_1x + \epsilon$$ and learn the parameters with maximum likelihood $$\widehat{\theta}$$ with the assumption $$\epsilon\sim\mathcal{N}(0,\sigma_\epsilon^2)$$. Use the model to predict the output for the test input $$x_\star = 4$$, and add the model to the plot below:</li>
+Assume that you record a scalar input $x$ and a scalar output $y$. First, you record $x_1 = 2, y_1 = -1$, and thereafter $x_2 = 3, y_2 = 1$. Assume a linear regression model $y = \beta_0 + \beta_1x + \epsilon$ and learn the parameters with maximum likelihood $\widehat{\theta}$ with the assumption $\epsilon\sim\mathcal{N}(0,\sigma_\epsilon^2)$. Use the model to predict the output for the test input $x_\star = 4$, and add the model to the plot below:</li>
 
 
 <li>Now, assume you have made a third observation $y_3 = 2$ for $x_3 = 4$ (is that what you predicted in (a)?). Update the parameters $\widehat{\bbeta}$ to all 3 data samples, add the new model to the plot (together with the new data point) and find the prediction for $x_\star = 5$.
