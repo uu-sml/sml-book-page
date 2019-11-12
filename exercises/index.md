@@ -1,5 +1,6 @@
 ---
-style: default
+title: Exercise problems for supervised machine learning
+style: problem
 ---
 
 <ul>
