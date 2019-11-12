@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: problem
 title: Linear regression
 ---
 
