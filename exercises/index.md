@@ -1,5 +1,5 @@
 ---
-style: problem
+layout: problem
 title: Exercise problems for supervised machine learning
 ---
 
