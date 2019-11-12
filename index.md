@@ -23,10 +23,6 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 
 TODO
 
-$$1+2$$
-
-
-
 ## [Exercise material](exercises)
 
 
