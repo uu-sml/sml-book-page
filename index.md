@@ -18,10 +18,11 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 ## The book
 ### Table of Contents
 
-[### Latest draft of the book](book/sml-book.pdf)
+1. Introduction
+2. Four basic models
+3. An so on
 
-
-TODO
+### [Latest draft of the book](book/sml-book.pdf)
 
 ## [Exercise material](exercises)
 
