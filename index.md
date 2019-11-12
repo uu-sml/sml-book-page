@@ -27,8 +27,6 @@ TODO
 
 ## [Exercise material](exercises)
 
-[Chapter 2](exercises/chapter2)
-
 
 ## Help us to improve the book
 [Report errata and feedback](https://github.com/uu-sml/sml-book-page/issues)
