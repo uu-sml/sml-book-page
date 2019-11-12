@@ -1,7 +1,7 @@
 <ul>
-  {% for exercise in site.exercises2 %}
+  {% for post in site.posts %}
     <li>
-      <a href="{{ exercise.url }}">{{ exercise.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
