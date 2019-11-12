@@ -82,7 +82,7 @@ $$\begin{equation}\bf X^T \bf X\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \
 with prediction <span>$$\widehat{y}_\star = \widehat{\theta}_1 x_\star = \frac{45}{29} \approx 1.55$$</span> for $x_\star=5$.
 
 ### d
-We now have to use the solution to the Ridge Regression problem instead, $(\bf{X}^T\bf X + \I_2)\widehat{\theta} = \bf X^T \bf y$,
+We now have to use the solution to the Ridge Regression problem instead,
 $$\begin{equation}(\bf{X}^T\bf X + \bf{I}_2)\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}  & 0 \\ 0 & 1 \end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{39}\begin{bmatrix}-21 \\ 18\end{bmatrix}.\end{equation}$$
 The prediction for $x_\star=5$ is hence $$\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{69}{39} \approx 1.77$$.
 
@@ -91,10 +91,10 @@ The extension of the nomal equations are
 $$\begin{equation}
 \bf{X}^T \bf{X}\widehat{\bf{B}} = \bf{X}^T \bf{Y}.\label{multls}
 \end{equation}$$
-Note that this is equivalent to making a separate least square computation for each column in $\Y$.
+Note that this is equivalent to making a separate least square computation for each column in $\bf Y$.
 
 $$\begin{multline}
-\bf{X}^T \bf{X}\widehat{\bf{B}} = \bf{X}^T \bf{Y} \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf{B}} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 & 0 \\ 1 & 2 \\ 2 & -1\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\B} = \frac{1}{6}\begin{bmatrix}-23 & 11\\ 9 & -3\end{bmatrix}.
+\bf{X}^T \bf{X}\widehat{\bf{B}} = \bf{X}^T \bf{Y} \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf{B}} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 & 0 \\ 1 & 2 \\ 2 & -1\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf B} = \frac{1}{6}\begin{bmatrix}-23 & 11\\ 9 & -3\end{bmatrix}.
 \end{multline}$$
 
 Note that the first column is identical to (b).	
