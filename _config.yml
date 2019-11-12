@@ -1,5 +1,7 @@
 theme: jekyll-theme-tactile
 
+mathjax: true
+
 collections_dir: exercises
 
 collections:
