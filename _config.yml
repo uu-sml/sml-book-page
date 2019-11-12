@@ -1,5 +1,7 @@
 theme: jekyll-theme-tactile
 
 collections:
-  - exercises2
-  - exercises3
+  - chapter2
+  - chapter3
+
+collections_dir: exercises
