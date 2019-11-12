@@ -1,7 +1,9 @@
 theme: jekyll-theme-tactile
 
-collections:
-  - chapter2
-  - chapter3
-
 collections_dir: exercises
+
+collections:
+  chapter2:
+    output: true
+    permalink: /:collection:/name
+
