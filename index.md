@@ -16,10 +16,10 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 
 
 ## The book
+###  Table of Contents
+
 [Latest draft of the book](book/sml-book.pdf)
 
-
-###  Table of Contents
 
 TODO
 
