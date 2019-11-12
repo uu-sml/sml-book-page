@@ -1,5 +1,5 @@
 <ul>
-  {% for exercise in site.exercise2 %}
+  {% for exercise in site.exercises2 %}
     <li>
       <a href="{{ exercise.url }}">{{ exercise.title }}</a>
     </li>
