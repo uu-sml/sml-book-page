@@ -1,6 +1,6 @@
 ---
-title: Exercise problems for supervised machine learning
 style: problem
+title: Exercise problems for supervised machine learning
 ---
 
 <ul>
