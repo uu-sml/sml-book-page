@@ -1,5 +1,3 @@
-markdown: maruku
-
 theme: jekyll-theme-tactile
 
 collections_dir: exercises
