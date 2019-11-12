@@ -67,26 +67,19 @@ The prediction for $x_\star=4$ becomes $\widehat{y}_\star = \widehat{\theta}_0 +
 
 ### b
 Again, the solution is given by the normal equations $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$
-\begin{equation}
-(\bf{X}^T \bf X) \widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{6}\begin{bmatrix}-23 \\ 9\end{bmatrix}.
-\end{equation}
-The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0$ TODO $+ \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$.
+$$\begin{equation}(\bf{X}^T \bf X) \widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{6}\begin{bmatrix}-23 \\ 9\end{bmatrix}.\end{equation}$$
+The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$.
 
 ### c
 With no intercept term, we get another $\bf{X}$ matrix,
 $\begin{bmatrix} 2 \\ 3 \\ 4 \end{bmatrix}$,
 and hence
-\begin{equation}
-\bf X^T \bf X\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}2\\3\\4\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{9}{29},
-\end{equation}
+$$\begin{equation}\bf X^T \bf X\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}2\\3\\4\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix} 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{9}{29},\end{equation}$$
 with prediction $\widehat{y}_\star = \widehat{\theta}_1 x_\star = \frac{45}{29} \approx 1.55$ for $x_\star=5$.
 
 ### d
 We now have to use the solution to the Ridge Regression problem instead, $(\bf{X}^T\bf X + \I_2)\widehat{\theta} = \bf X^T \bf y$,
-\begin{equation}
-(\bf{X}^T\bf X + \I_2)\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}
-1 & 0 \\ 0 & 1 \end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{39}\begin{bmatrix}-21 \\ 18\end{bmatrix}.
-\end{equation}
+$$\begin{equation}(\bf{X}^T\bf X + \I_2)\widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}+\begin{bmatrix}  & 0 \\ 0 & 1 \end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{39}\begin{bmatrix}-21 \\ 18\end{bmatrix}.\end{equation}$$
 The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{69}{39} \approx 1.77$.
 
 ### e
