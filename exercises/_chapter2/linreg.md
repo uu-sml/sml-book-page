@@ -56,9 +56,7 @@ try to make an educated guess how the normal equations can be generalized to the
 
 ### a
 Write the problem as
-$$\underbrace{\begin{bmatrix}y_1 \\ y_2\end{bmatrix}}_{\bf y} =
-\underbrace{\begin{bmatrix} 1 & x_1 \\ 1 & x_2 \end{bmatrix}}_{\bf{X}}
-\underbrace{\begin{bmatrix}\theta_0 \\ \theta_1\end{bmatrix}}_{\bf\theta} + \bf\eps.$
+$$\underbrace{\begin{bmatrix}y_1 \\ y_2\end{bmatrix}}_{\bf y} = \underbrace{\begin{bmatrix} 1 & x_1 \\ 1 & x_2 \end{bmatrix}}_{\bf{X}} \underbrace{\begin{bmatrix}\theta_0 \\ \theta_1\end{bmatrix}}_{\bf\theta} + \bf\eps.$$
 
 The maximum likelihood solution to this problem is equivalent to the least square solution given by $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$. We thus solve it (using, e.g., Gauss elimination),
 $$\begin{equation}
@@ -72,7 +70,7 @@ Again, the solution is given by the normal equations $\bf{X}^T \bf X\widehat{\bf
 \begin{equation}
 (\bf{X}^T \bf X) \widehat{\bf\theta} = \bf X^T \bf y \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf\theta} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 \\ 1 \\ 2\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\bf\theta} = \frac{1}{6}\begin{bmatrix}-23 \\ 9\end{bmatrix}.
 \end{equation}
-The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$.
+The prediction for $x_\star=5$ is hence $\widehat{y}_\star = \widehat{\theta}_0$ TODO $+ \widehat{\theta}_1 x_\star = \frac{11}{3} \approx 3.67$.
 
 ### c
 With no intercept term, we get another $\bf{X}$ matrix,
