@@ -50,4 +50,4 @@ y_{n1} & \cdots & y_{nq}
 \vdots & \vdots & & \vdots \\
 \theta_{p1} & \theta_{p2} & \cdots & \theta_{pq} \\
 \end{bmatrix}}_{\bf B} +\epsilon,\end{align}$$
-try to make an educated guess how the normal equations can be generalized to the multidemsional output case. (A more thorough derivation is found in problem 1.5). Use your findings to compute the least square solution $\widehat{\B}$ to the problem now including both the first output $y_1$ and the second output $y_2$.
+try to make an educated guess how the normal equations can be generalized to the multidemsional output case. (A more thorough derivation is found in problem 1.5). Use your findings to compute the least square solution $\widehat{\bf B}$ to the problem now including both the first output $y_1$ and the second output $y_2$.
