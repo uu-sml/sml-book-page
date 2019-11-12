@@ -3,9 +3,9 @@ style: default
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% for e2 in site.exercises2 %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ e2.url }}">{{ e2.title }}</a>
     </li>
   {% endfor %}
 </ul>
