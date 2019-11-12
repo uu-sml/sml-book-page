@@ -25,11 +25,14 @@ You realize that there are actually \emph{two} output variables in the problem y
 |(3)|4|2|-1|
 
 You want to model this as a linear regression with multidimensional outputs (without regularization), i.e.,
+
 $$\begin{align}
 y_1 &= \theta_{01}+\theta_{11}x + \epsilon\\
 y_2 &= \theta_{02}+\theta_{12}x + \epsilon
 \end{align}$$
+
 By introducing, for the general case of $p$ inputs and $q$ outputs, the matrices
+
 $$\begin{align}
 \underbrace{\begin{bmatrix}
 y_{11} & \cdots & y_{1q} \\
@@ -50,20 +53,21 @@ y_{n1} & \cdots & y_{nq}
 \vdots & \vdots & & \vdots \\
 \theta_{p1} & \theta_{p2} & \cdots & \theta_{pq} \\
 \end{bmatrix}}_{\bf B} +\epsilon,\end{align}$$
+
 try to make an educated guess how the normal equations can be generalized to the multidemsional output case. (A more thorough derivation is found in problem 1.5). Use your findings to compute the least square solution $\widehat{\bf B}$ to the problem now including both the first output $y_1$ and the second output $y_2$.
 
 # Solution
 
 ### a
 Write the problem as
-$$\underbrace{\begin{bmatrix}y_1 \\ y_2\end{bmatrix}}_{\bf y} = \underbrace{\begin{bmatrix} 1 & x_1 \\ 1 & x_2 \end{bmatrix}}_{\bf{X}} \underbrace{\begin{bmatrix}\theta_0 \\ \theta_1\end{bmatrix}}_{\bf\theta} + \bf\eps.$$
+$$\underbrace{\begin{bmatrix}y_1 \\ y_2\end{bmatrix}}_{\bf y} = \underbrace{\begin{bmatrix} 1 & x_1 \\ 1 & x_2 \end{bmatrix}}_{\bf{X}} \underbrace{\begin{bmatrix}\theta_0 \\ \theta_1\end{bmatrix}}_{\bf\theta} + \bf\epsilon.$$
 
 The maximum likelihood solution to this problem is equivalent to the least square solution given by $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$. We thus solve it (using, e.g., Gauss elimination),
-$$\begin{equation}
+<div>$$\begin{equation}
 \begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^T\begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}1 & 2\\1 & 3\end{bmatrix}^T\begin{bmatrix}-1 \\ 1\end{bmatrix} \Rightarrow 
 \begin{bmatrix}2 & 5\\5 & 13\end{bmatrix}\widehat{\bf\theta} = \begin{bmatrix}0 \\ 1\underline{}\end{bmatrix} \Rightarrow \widehat{\bf\theta} = \begin{bmatrix}-5 \\ 2\end{bmatrix}.
-\end{equation}$$
-The prediction for $x_\star=4$ becomes $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = 3$.
+\end{equation}$$</div>
+The prediction for <div>$x_\star=4$ becomes $\widehat{y}_\star = \widehat{\theta}_0 + \widehat{\theta}_1 x_\star = 3$</div>.
 
 ### b
 Again, the solution is given by the normal equations $\bf{X}^T \bf X\widehat{\bf\theta} = \bf X^T \bf y$
