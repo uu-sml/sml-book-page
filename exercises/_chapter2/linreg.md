@@ -24,22 +24,19 @@ You realize that there are actually \emph{two} output variables in the problem y
 |(2)|3|1|2|
 |(3)|4|2|-1|
 
-
-
 You want to model this as a linear regression with multidimensional outputs (without regularization), i.e.,
-\begin{align}
+$$\begin{align}
 y_1 &= \theta_{01}+\theta_{11}x + \epsilon\\
 y_2 &= \theta_{02}+\theta_{12}x + \epsilon
-\end{align}
+\end{align}$$
 By introducing, for the general case of $p$ inputs and $q$ outputs, the matrices
-\begin{align}
+$$\begin{align}
 \underbrace{\begin{bmatrix}
 y_{11} & \cdots & y_{1q} \\
 y_{21} & \cdots & y_{2q} \\
 \vdots & & \vdots \\
 y_{n1} & \cdots & y_{nq}
-\end{bmatrix}}_{\bf Y}
-=
+\end{bmatrix}}_{\bf Y} =
 \underbrace{\begin{bmatrix}
 1 & x_{11} & x_{12} & \cdots & x_{1p} \\
 1 & x_{21} & x_{22} & \cdots & x_{2p} \\
@@ -52,6 +49,5 @@ y_{n1} & \cdots & y_{nq}
 \theta_{21} & \theta_{22} & \cdots & \theta_{2q} \\
 \vdots & \vdots & & \vdots \\
 \theta_{p1} & \theta_{p2} & \cdots & \theta_{pq} \\
-\end{bmatrix}}_{\bf B}+\epsilon,
-\end{align}
+\end{bmatrix}}_{\bf B} +\epsilon,\end{align}$$
 try to make an educated guess how the normal equations can be generalized to the multidemsional output case. (A more thorough derivation is found in problem 1.5). Use your findings to compute the least square solution $\widehat{\B}$ to the problem now including both the first output $y_1$ and the second output $y_2$.
