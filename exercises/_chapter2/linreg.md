@@ -19,12 +19,12 @@ Assume that you record a scalar input $x$ and a scalar output $y$. First, you re
 
 <li> You realize that there are actually \emph{two} output variables in the problem you are studying. In total, you have made the following observations:
 
-\begin{tabular}{ c c c c }
+$\begin{tabular}{ c c c c }
   sample & input $x$ & first output $y_1$ & second output $y_2$ \\ \hline
   (1) & 2 & -1 & 0 \\
   (2) & 3 & 1 & 2  \\
   (3) & 4 & 2 & -1 \\
-\end{tabular}
+\end{tabular}$
 
 You want to model this as a linear regression with multidimensional outputs (without regularization), i.e.,
 \begin{align}
