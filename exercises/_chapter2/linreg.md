@@ -88,10 +88,13 @@ The prediction for $x_\star=5$ is hence $$\widehat{y}_\star = \widehat{\theta}_0
 
 ### e
 The extension of the nomal equations are 
-\begin{equation}
-\bf{X}^T \bf{X}\widehat{\B} = \bf{X}^T \bf{Y}.\label{multls}
-\end{equation}Note that this is equivalent to making a separate least square computation for each column in $\Y$.
-\begin{multline}
-\bf{X}^T \bf{X}\widehat{\B} = \bf{X}^T \bf{Y} \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\B} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 & 0 \\ 1 & 2 \\ 2 & -1\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\B} = \frac{1}{6}\begin{bmatrix}-23 & 11\\ 9 & -3\end{bmatrix}.
-\end{multline}
+$$\begin{equation}
+\bf{X}^T \bf{X}\widehat{\bf{B}} = \bf{X}^T \bf{Y}.\label{multls}
+\end{equation}$$
+Note that this is equivalent to making a separate least square computation for each column in $\Y$.
+
+$$\begin{multline}
+\bf{X}^T \bf{X}\widehat{\bf{B}} = \bf{X}^T \bf{Y} \Rightarrow \left(\begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}1 & 2\\1 & 3\\1 & 4\end{bmatrix}\right)\widehat{\bf{B}} = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 4\end{bmatrix}\begin{bmatrix}-1 & 0 \\ 1 & 2 \\ 2 & -1\end{bmatrix} \Rightarrow \dots \Rightarrow \widehat{\B} = \frac{1}{6}\begin{bmatrix}-23 & 11\\ 9 & -3\end{bmatrix}.
+\end{multline}$$
+
 Note that the first column is identical to (b).	
