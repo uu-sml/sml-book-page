@@ -25,7 +25,17 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 2. Four basic models
 3. An so on
 
-## [Exercise material](exercises)
+## Exercise material
+
+1. Chapter 2
+   - Pen-and-paper problems
+   - Implementation problems (Python)
+   - Implementation problems (R)
+2. Chapter 3
+   - Pen-and-paper problems
+   - Implementation problems (Python)
+   - Implementation problems (R)
+3. And so on
 
 
 ## [Report mistakes and give feedback](https://github.com/uu-sml/sml-book-page/issues)
