@@ -1,5 +1,5 @@
 ---
-layout: problem
+layout: default
 title: Exercises
 ---
 
