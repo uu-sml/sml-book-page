@@ -28,15 +28,6 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 
 ## Exercise material
 
-1. Chapter 2
-   - Pen-and-paper problems
-   - Implementation problems (Python)
-   - Implementation problems (R)
-2. Chapter 3
-   - Pen-and-paper problems
-   - Implementation problems (Python)
-   - Implementation problems (R)
-3. And so on
-
+Will eventually be added to this page. Meanwhile you may have a look at the material for our [course at Uppsala University](http://www.it.uu.se/edu/course/homepage/sml/) (exercise material will be available at the course beginning in January).
 
 ## [Report mistakes and give feedback](https://github.com/uu-sml/sml-book-page/issues)
