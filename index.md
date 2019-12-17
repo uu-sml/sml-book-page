@@ -21,9 +21,9 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
 
 1. Introduction
 2. Supervised machine learning: a first approach
-   2.1 Supervised learning
-   2.2 A distance-based method: k-NN
-   2.3 A rule-based method: Decision trees
+   - Supervised learning
+   - A distance-based method: k-NN
+   - A rule-based method: Decision trees
 3. Basic parametric models for regression and classification
    - Linear regression
    - Logistic regression
