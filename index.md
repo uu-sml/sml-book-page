@@ -35,36 +35,36 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
    - The training error–generalization gap decomposition
    - The bias-variance decomposition
    - Evaluation for imbalanced and asymmetric classification problems
-5. **Learning parametric models: regularization, loss functions and optimization
+5. **Learning parametric models: regularization, loss functions and optimization**
    - Regularization
    - Loss functions
    - Parameter optimization
    - Optimization with large datasets
-6. **Neural networks and deep learning
+6. **Neural networks and deep learning**
    - Neural networks
    - Convolutional neural networks
    - Training a neural network
-7. **Ensemble methods: Bagging and boosting
+7. **Ensemble methods: Bagging and boosting**
    - Bagging
    - Random forests
    - Boosting and AdaBoost
    - Gradient boosting
-8. **Nonlinear input transformations and kernels
+8. **Nonlinear input transformations and kernels**
    - Creating features by nonlinear input transformations
    - The kernel trick in linear regression and support vector regression
    - Kernel k-NN and kernel theory
    - Support vector classification
-9. **The Bayesian approach and Gaussian processes
+9. **The Bayesian approach and Gaussian processes**
    - Bayesian linear regression
    - Gaussian processes
-10. **User aspects of machine learning
+10. **User aspects of machine learning**
     - Defining the machine learning problem
     - The iterative process of improving a machine learning model
     - Data collection and preparation
     - End-to-end learning vs. feature engineering
     - Can I trust my machine learning model?
     - Ethics in machine learning
-11. **Generative models and learning from unlabeled data
+11. **Generative models and learning from unlabeled data**
     - Generative models: LDA, QDA and more
     - Semi-supervised and self-supervised learning
     - Unsupervised learning
