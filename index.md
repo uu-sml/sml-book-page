@@ -58,18 +58,16 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
    - Bayesian linear regression
    - Gaussian processes
 10. User aspects of machine learning
-   - Defining the machine learning problem
-   - The iterative process of improving a machine learning model
-   - Data collection and preparation
-   - End-to-end learning vs. feature engineering
-   - Can I trust my machine learning model?
-   - Ethics in machine learning
+    - Defining the machine learning problem
+    - The iterative process of improving a machine learning model
+    - Data collection and preparation
+    - End-to-end learning vs. feature engineering
+    - Can I trust my machine learning model?
+    - Ethics in machine learning
 11. Generative models and learning from unlabeled data
-   - Old text on LDA and QDA
-   - Generative models
-   - Unsupervised learning
-   - Semi-supervised and self-supervised learning
-   - Further reading
+    - Generative models: LDA, QDA and more
+    - Semi-supervised and self-supervised learning
+    - Unsupervised learning
 
 [**Latest draft of the book**](book/sml-book.pdf) (soon to be put online)
 
