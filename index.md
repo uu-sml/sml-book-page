@@ -17,7 +17,7 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
 
 [**Latest draft of the book**](book/sml-book.pdf) (soon to be put online)
 
-**Table of Contents**
+## Table of Contents
 
 1. **Introduction**
 2. **Supervised machine learning: a first approach**
