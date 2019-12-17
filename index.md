@@ -12,10 +12,10 @@ When we developed the course [Statistical Machine Learning](http://www.it.uu.se/
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/)
 
-A draft of the book will soon be available on this page. **We will keep a PDF of the book freely available also after publication.**
+A draft of the book will soon be available on this page. **We will keep a PDF of the book freely available also after its publication.**
 
 
-## The book
+[**Latest draft of the book**](book/sml-book.pdf) (soon to be put online)
 
 **Table of Contents**
 
@@ -68,8 +68,6 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
     - Generative models: LDA, QDA and more
     - Semi-supervised and self-supervised learning
     - Unsupervised learning
-
-[**Latest draft of the book**](book/sml-book.pdf) (soon to be put online)
 
 
 ## Exercise material
