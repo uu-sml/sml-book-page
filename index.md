@@ -2,7 +2,7 @@
 layout: default
 title: The Supervised Machine Learning book
 tagline: Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten and Thomas B. Schön
-description: An upcoming textbook on the essentials of supervised machine learning
+description: An upcoming textbook
 ---
 
 When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will eventually be published by Cambridge University Press.
@@ -35,7 +35,7 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
    - The training error–generalization gap decomposition
    - The bias-variance decomposition
    - Evaluation for imbalanced and asymmetric classification problems
-5. **Learning parametric models: regularization, loss functions and optimization**
+5. **Learning parametric models**
    - Regularization
    - Loss functions
    - Parameter optimization
