@@ -5,7 +5,7 @@ tagline: Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten and Thomas B. Sch
 description: An upcoming textbook
 ---
 
-When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will eventually be published by Cambridge University Press.
+When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will be published by [Cambridge University Press](https://www.cambridge.org/) in 2021.
 
 [Andreas Lindholm](http://www.it.uu.se/katalog/andsv164/),
 [Niklas Wahlström](https://www.it.uu.se/katalog/nikwa778/),
