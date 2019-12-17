@@ -30,4 +30,5 @@ A draft of the book is available on this page. **We will keep a PDF of the book 
 
 Will eventually be added to this page. Meanwhile you may have a look at the material for our [course at Uppsala University](http://www.it.uu.se/edu/course/homepage/sml/) (exercise material will be available at the course beginning in January).
 
-## [Report mistakes and give feedback](https://github.com/uu-sml/sml-book-page/issues) (requires a free GitHub account)
+## [Report mistakes and give feedback](https://github.com/uu-sml/sml-book-page/issues)
+(A free GitHub account is required)
