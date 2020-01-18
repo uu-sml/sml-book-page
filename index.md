@@ -27,7 +27,7 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
 3. **Basic parametric models for regression and classification**
    - Linear regression
    - Logistic regression
-   - Nonlinear input transformations and regularization
+   - Nonlinear input transformations and regularization (not in draft yet)
    - Nonlinear parametric models (not in draft yet)
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
@@ -59,9 +59,9 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
    - Gaussian processes (not in draft yet)
 10. **User aspects of machine learning**
     - Defining the machine learning problem
-    - The iterative process of improving a machine learning model
-    - Data collection and preparation
-    - End-to-end learning vs. feature engineering (not in draft yet)
+    - Improving a machine learning model
+    - What if you cannot collect more data?
+    - Practical data issues
     - Can I trust my machine learning model? (not in draft yet)
     - Ethics in machine learning (not in draft yet)
 11. **Generative models and learning from unlabeled data**
