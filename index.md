@@ -15,11 +15,11 @@ When we developed the course [Statistical Machine Learning](http://www.it.uu.se/
 A draft of the book will soon be available on this page. **We will keep a PDF of the book freely available also after its publication.**
 
 
-[**Latest draft of the book**](book/sml-book.pdf) (soon to be put online)
+[**Latest draft of the book**](book/sml-book-latest-draft.pdf)
 
 ## Table of Contents
 
-1. **Introduction**
+1. **Introduction** (not in draft yet)
 2. **Supervised machine learning: a first approach**
    - Supervised learning
    - A distance-based method: k-NN
@@ -28,7 +28,7 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
    - Linear regression
    - Logistic regression
    - Nonlinear input transformations and regularization
-   - Nonlinear parametric models
+   - Nonlinear parametric models (not in draft yet)
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
@@ -50,24 +50,24 @@ A draft of the book will soon be available on this page. **We will keep a PDF of
    - Boosting and AdaBoost
    - Gradient boosting
 8. **Nonlinear input transformations and kernels**
-   - Creating features by nonlinear input transformations
-   - The kernel trick in linear regression and support vector regression
-   - Kernel k-NN and kernel theory
-   - Support vector classification
-9. **The Bayesian approach and Gaussian processes**
-   - Bayesian linear regression
-   - Gaussian processes
+   - Creating features by nonlinear input transformations (not in draft yet)
+   - The kernel trick in linear regression and support vector regression (not in draft yet)
+   - Kernel k-NN and kernel theory (not in draft yet)
+   - Support vector classification (not in draft yet)
+9. **The Bayesian approach and Gaussian processes** 
+   - Bayesian linear regression (not in draft yet)
+   - Gaussian processes (not in draft yet)
 10. **User aspects of machine learning**
     - Defining the machine learning problem
     - The iterative process of improving a machine learning model
     - Data collection and preparation
-    - End-to-end learning vs. feature engineering
-    - Can I trust my machine learning model?
-    - Ethics in machine learning
+    - End-to-end learning vs. feature engineering (not in draft yet)
+    - Can I trust my machine learning model? (not in draft yet)
+    - Ethics in machine learning (not in draft yet)
 11. **Generative models and learning from unlabeled data**
     - Generative models: LDA, QDA and more
-    - Semi-supervised and self-supervised learning
-    - Unsupervised learning
+    - Semi-supervised and self-supervised learning (not in draft yet)
+    - Unsupervised learning (not in draft yet)
 
 
 ## Exercise material
