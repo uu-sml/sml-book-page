@@ -12,10 +12,10 @@ When we developed the course [Statistical Machine Learning](http://www.it.uu.se/
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/)
 
-A draft of the book is available on this page. **We will keep a PDF of the book freely available also after its publication.**
+A draft of the book is available below. **We will keep a PDF of the book freely available also after its publication.**
 
 
-[**Latest draft of the book**](sml-book-latest-draft.pdf)
+[**Latest draft of the book**](sml-book-latest-draft.pdf) (version: January 18, 2020)
 
 ## Table of Contents
 
