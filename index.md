@@ -36,8 +36,8 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - The bias-variance decomposition
    - Evaluation for imbalanced and asymmetric classification problems
 5. **Learning parametric models**
-   - Regularization
    - Loss functions
+   - Regularization
    - Parameter optimization
    - Optimization with large datasets
 6. **Neural networks and deep learning**
