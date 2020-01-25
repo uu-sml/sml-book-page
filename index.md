@@ -15,7 +15,7 @@ When we developed the course [Statistical Machine Learning](http://www.it.uu.se/
 A draft of the book is available below. **We will keep a PDF of the book freely available also after its publication.**
 
 
-[**Latest draft of the book**](sml-book-latest-draft.pdf) (version: January 18, 2020)
+[**Latest draft of the book**](book/sml-book-draft-latest.pdf) (version: January 25, 2020, [older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/book))
 
 ## Table of Contents
 
