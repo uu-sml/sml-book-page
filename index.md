@@ -21,15 +21,15 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 1. **Introduction** (not in draft yet)
 2. **Supervised machine learning: a first approach**
-   - Supervised learning
+   - The supervised learning problem
    - A distance-based method: k-NN
    - A rule-based method: Decision trees
    - Training a classification tree
 3. **Basic parametric models for regression and classification**
    - Linear regression
-   - Logistic regression
-   - Nonlinear input transformations and regularization (not in draft yet)
-   - Nonlinear parametric models (not in draft yet)
+   - Classification and logistic regression
+   - Polynomial regression and regularization
+   - Nonlinear retression and genearlized linear models (only partly completed)
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
@@ -51,24 +51,25 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - Boosting and AdaBoost
    - Gradient boosting
 8. **Nonlinear input transformations and kernels**
-   - Creating features by nonlinear input transformations (not in draft yet)
-   - The kernel trick in linear regression and support vector regression (not in draft yet)
-   - Kernel k-NN and kernel theory (not in draft yet)
-   - Support vector classification (not in draft yet)
+   - Creating features by nonlinear input transformations
+   - Using kernels in regression: kernel ridge regdression and support vector regression
+   - Kernel theory
+   - Kernels for classification: support vector classification
 9. **The Bayesian approach and Gaussian processes** 
+   - The Bayesian approach (not in draft yet)
    - Bayesian linear regression (not in draft yet)
    - Gaussian processes (not in draft yet)
 10. **User aspects of machine learning**
     - Defining the machine learning problem
     - Improving a machine learning model
-    - What if you cannot collect more data?
+    - What if we cannot collect more data?
     - Practical data issues
     - Can I trust my machine learning model? (not in draft yet)
     - Ethics in machine learning (not in draft yet)
 11. **Generative models and learning from unlabeled data**
-    - Generative models: LDA, QDA and more
-    - Semi-supervised and self-supervised learning (not in draft yet)
-    - Unsupervised learning (not in draft yet)
+    - The Gaussian mixture model and the LDA & QDA classifiers
+    - The Gaussian mixture model when some or all labels are missing (not in draft yet)
+    - More unsupervised methods: k-means and PCA (only partly completed)
 
 
 ## Exercise material
