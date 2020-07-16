@@ -24,7 +24,6 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - The supervised learning problem
    - A distance-based method: k-NN
    - A rule-based method: Decision trees
-   - Training a classification tree
 3. **Basic parametric models for regression and classification**
    - Linear regression
    - Classification and logistic regression
@@ -52,13 +51,15 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - Gradient boosting
 8. **Nonlinear input transformations and kernels**
    - Creating features by nonlinear input transformations
-   - Using kernels in regression: kernel ridge regdression and support vector regression
+   - Kernel ridge regdression
+   - Support vector regression
    - Kernel theory
-   - Kernels for classification: support vector classification
+   - Support vector classification
 9. **The Bayesian approach and Gaussian processes** 
-   - The Bayesian approach (not in draft yet)
-   - Bayesian linear regression (not in draft yet)
-   - Gaussian processes (not in draft yet)
+   - The Bayesian idea
+   - Bayesian linear regression
+   - The Gaussian processes
+   - Practial usage of the Gaussian process
 10. **User aspects of machine learning**
     - Defining the machine learning problem
     - Improving a machine learning model
