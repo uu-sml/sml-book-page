@@ -28,7 +28,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - Linear regression
    - Classification and logistic regression
    - Polynomial regression and regularization
-   - Nonlinear retression and genearlized linear models (only partly in draft)
+   - Nonlinear retression and generalized linear models (only partly in draft)
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
