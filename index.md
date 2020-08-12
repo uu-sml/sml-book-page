@@ -19,7 +19,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 ## Table of Contents
 
-1. **Introduction** (not in draft yet)
+1. **Introduction** (only partly in draft)
 2. **Supervised machine learning: a first approach**
    - The supervised learning problem
    - A distance-based method: k-NN
@@ -28,7 +28,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - Linear regression
    - Classification and logistic regression
    - Polynomial regression and regularization
-   - Nonlinear retression and genearlized linear models (only partly completed)
+   - Nonlinear retression and genearlized linear models (only partly in draft)
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
@@ -69,8 +69,8 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
     - Ethics in machine learning (not in draft yet)
 11. **Generative models and learning from unlabeled data**
     - The Gaussian mixture model and the LDA & QDA classifiers
-    - The Gaussian mixture model when some or all labels are missing (not in draft yet)
-    - More unsupervised methods: k-means and PCA (only partly completed)
+    - The Gaussian mixture model when some or all labels are missing
+    - More unsupervised methods: k-means and PCA
 
 
 ## Exercise material
