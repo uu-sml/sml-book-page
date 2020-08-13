@@ -65,7 +65,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
     - Improving a machine learning model
     - What if we cannot collect more data?
     - Practical data issues
-    - Can I trust my machine learning model? (not in draft yet)
+    - Can I trust my machine learning model?
     - Ethics in machine learning (not in draft yet)
 11. **Generative models and learning from unlabeled data**
     - The Gaussian mixture model and the LDA & QDA classifiers
