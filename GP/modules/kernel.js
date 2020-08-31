@@ -76,20 +76,20 @@ class PolynomialKernel extends Kernel {
             "Polynomial",
             [1, 0.05, 2], // parameterValue
             { //parameterInfo
-                max: [4, 0.2, 10],
+                max: [4, 0.2, 11],
                 min: [0, 0, 1],
                 step: 0.01,
-                latex: ["\\sigma_b", "\\sigma_v", "p"],
-                html: ['&sigma;<sub>b</sub>', '&sigma;<sub>v</sub>', 'p'],
+                latex: ["\\sigma_b", "\\sigma_v", "d"],
+                html: ['&sigma;<sub>b</sub>', '&sigma;<sub>v</sub>', 'd'],
                 integer: [false, false, true]
             },
             { // kernelFunction
-                f: (par, t, tp) => (par[0]**2  + par[1]**2 * t * tp)**par[2],
+                f: (par, t, tp) => (par[0]**2  + par[1]**2 * t * tp)**(par[2]-1),
                 df: undefined
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\left(\\sigma_{b}^{2} + \\sigma_{v}^{2} t s\\right)^{p}"
+                latex: "\\left(\\sigma_{b}^{2} + \\sigma_{v}^{2} t s\\right)^{d-1}"
             });
     }
 }

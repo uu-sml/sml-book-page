@@ -532,7 +532,7 @@ function changeKernel(idx) {
     titleText.text(GP.kernel.name);
     //kernelTitle.text(GP.kernel.name);
     katex.render(
-        `\\rule{0pt}{5ex}\\kappa(t, s) = ${GP.kernel.kernelInfo.latex}`,     
+        `\\rule{0pt}{5ex}\\kappa(x, x^\\prime) = ${GP.kernel.kernelInfo.latex}`,     
         kernelFunctionExpression.node(),
         {
             displayMode: false,
