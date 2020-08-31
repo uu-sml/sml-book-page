@@ -65,7 +65,7 @@ class SquaredExponentialKernel extends Kernel {
             },
             {
                 html: undefined,
-                latex: "\\sigma^2 e^{-\\frac{(t-s)^2}{2 \\ell^2}}"
+                latex: "\\sigma^2 e^{-\\frac{(x-x^\\prime)^2}{2 \\ell^2}}"
             })
     }
 };
@@ -89,7 +89,7 @@ class PolynomialKernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\left(\\sigma_{b}^{2} + \\sigma_{v}^{2} t s\\right)^{d-1}"
+                latex: "\\left(\\sigma_{b}^{2} + \\sigma_{v}^{2} x x^\\prime\\right)^{d-1}"
             });
     }
 }
@@ -113,7 +113,7 @@ class RationalQuadraticKernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2 \\left( 1 + \\frac{(t - s)^2}{2 \\alpha \\ell^2} \\right)^{-\\alpha}"
+                latex: "\\sigma^2 \\left( 1 + \\frac{(x - x^\\prime)^2}{2 \\alpha \\ell^2} \\right)^{-\\alpha}"
             });
     }
 }
@@ -137,7 +137,7 @@ class PeriodicKernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2 e^{- \\frac{2 \\sin^2(\\pi |t - s|/p)}{\\ell^2}}"
+                latex: "\\sigma^2 e^{- \\frac{2 \\sin^2(\\pi |x - x^\\prime|/p)}{\\ell^2}}"
             });
     }
 }
@@ -169,7 +169,7 @@ class WhiteKernel extends Kernel {
 class Matern1Kernel extends Kernel {
     constructor() {
         super(
-            "Matern 1",
+            "Matern 1/2",
             [2, 5], // parameterValue
             { //parameterInfo
                 max: [4, 10],
@@ -185,7 +185,7 @@ class Matern1Kernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2 e^{-\\frac{|t-s|}{\\ell}}"
+                latex: "\\sigma^2 e^{-\\frac{|x-x^\\prime|}{\\ell}}"
             });
     }
 }
@@ -193,7 +193,7 @@ class Matern1Kernel extends Kernel {
 class Matern3Kernel extends Kernel {
     constructor() {
         super(
-            "Matern 3",
+            "Matern 3/2",
             [2, 5], // parameterValue
             { //parameterInfo
                 max: [4, 10],
@@ -209,7 +209,7 @@ class Matern3Kernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2\\left( 1 + \\frac{\\sqrt{3}|t - s|}{\\ell}  \\right)e^{-\\frac{\\sqrt{3}|t - s|}{\\ell}}"
+                latex: "\\sigma^2\\left( 1 + \\frac{\\sqrt{3}|x - x^\\prime|}{\\ell}  \\right)e^{-\\frac{\\sqrt{3}|x - x^\\prime|}{\\ell}}"
             });
     }
 }
@@ -217,7 +217,7 @@ class Matern3Kernel extends Kernel {
 class Matern5Kernel extends Kernel {
     constructor() {
         super(
-            "Matern 5",
+            "Matern 5/2",
             [2, 5], // parameterValue
             { //parameterInfo
                 max: [4, 10],
@@ -235,7 +235,7 @@ class Matern5Kernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2 \\left( 1 + \\frac{\\sqrt{5} |t - s|}{\\ell} + \\frac{5(t-s)^2}{3 \\ell^2}\\right) e^{-\\frac{\\sqrt{5}|t - s|}{\\ell}}"
+                latex: "\\sigma^2 \\left( 1 + \\frac{\\sqrt{5} |x - x^\\prime|}{\\ell} + \\frac{5(x^\\prime-x^\\prime)^2}{3 \\ell^2}\\right) e^{-\\frac{\\sqrt{5}|x - x^\\prime|}{\\ell}}"
             });
     }
 }
@@ -259,7 +259,7 @@ class GammaExponentialKernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2 e^{-\\left( \\frac{|t - s|}{\\ell} \\right)^\\gamma}"
+                latex: "\\sigma^2 e^{-\\left( \\frac{|x - x^\\prime|}{\\ell} \\right)^\\gamma}"
             });  
     }
 }
