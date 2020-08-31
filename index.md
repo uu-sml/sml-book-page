@@ -58,7 +58,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 9. **The Bayesian approach and Gaussian processes** 
    - The Bayesian idea
    - Bayesian linear regression
-   - The Gaussian processes
+   - The Gaussian processes [**Online material: Gaussian process visualization**](GP/index.html)
    - Practial usage of the Gaussian process
 10. **User aspects of machine learning**
     - Defining the machine learning problem
