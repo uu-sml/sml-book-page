@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaussian process visualization</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="./css/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="./js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script src="./js/d3.v4.min.js"></script>    
+    <script src="./js/numeric-1.2.6.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+      <a href="http://www.uu.se"><img src="http://uu.se/digitalAssets/242/242915_3uu_logo.png" alt="Uppsala University"></a>
+    </header>
+
+    <h1>Visualization of the Gaussian Process</h1>
+    <div style="margin-bottom: 10px">by Johan W&aring;gberg 2019. Try different kernels, change hyperparameters and add observations by clicking in the figure!</div>
+    <div style="font-size: 12px; margin-bottom: 50px">The technical idea on how to smoothly loop over Gaussian process samples (as done in this animation) are described <a href="http://mlss.tuebingen.mpg.de/2013/Hennig_2013_Animating_Samples_from_Gaussian_Distributions.pdf">by this document</a>.</div>
+    
+     
+    
+    <div id="gp-viz"></div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

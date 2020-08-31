@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+.axis {
+    opacity: 0.7;
+}
+.axis text{
+    /*font-family: "Latin Modern Math";*/
+    font-family: "Robota";
+    font-size: 15px;
+}
+
+.centerwrapper {
+    text-align: center;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    /* height: 400px; */
+    max-width: 960px;
+    padding-bottom: 100%; /*aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#kernels {
+    display: block;
+    text-align: center;
+    max-width: 960px;
+}
+
+.controlsGroup {
+    opacity: 0.6;
+}
+
+.kernelSelectGroup {
+    opacity: 1;
+}
+
+.kernelSelectGroup .highlight {
+    fill: darkred;
+    opacity: 1;
+}
+
+.kernelControl {
+    opacity: 1;
+}
+
+.kernelControl  rect{
+    fill: white;
+    opacity: 1;
+    
+}
+.controlSVG {
+    opacity: 0.6;
+}
+
+.titleGroup {
+    opacity: 1;
+}
+
+.meanLine {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-dasharray: 6,10;
+    stroke-width: 1px;
+}
+
+.sampleLine {
+    fill: none;
+    stroke: steelblue;
+    /* stroke: #7EB77F; */
+    stroke-width: 2px;
+}
+
+.datapoint {
+    fill: darkred;
+    stroke: darkred;
+    /* fill: #161925;
+    stroke: #161925; */
+    stroke-width: 1px;
+}
+
+.area {
+    fill: lightsteelblue;
+    /* fill: #F5DBCB; */
+}
+
+
+.kernelSelect rect {
+    opacity: 0.6;
+    fill: white;
+}
+
+.kernelTitle {
+    font: normal 1.21em KaTeX_Main,Times New Roman,serif;
+    text-align: center;
+    font-size: 24px;
+    fill: black;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.kernelName {
+    /*font: normal 1.21em KaTeX_Main,Times New Roman,serif;*/
+    /*margin-top: 30px;*/
+    /*padding-top: 10px;*/
+    text-anchor: left;
+    text-align: center;
+    font-family: "Robota";
+    font-size: 23px;
+    fill: black;
+    opacity: 0.6;
+}
+
+.kernelexpression {
+    height: 60px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kernelfunctionexpression {
+    /*height: 80px;*/
+    padding-top: 10px;
+/*    top: 50%;*/
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+
+    margin: auto;
+    color: black;
+    /*display: block;*/
+    opacity: 1;
+    /*bottom: 0px;*/
+}
+
+.foreignObject {
+    display: block;
+    /*background-color: white;*/
+}
+
+
+#foreignObjectLeft {
+    width: 50%;
+    float: left;
+    position: relative;
+    /*top: 70px;*/
+}
+
+#foreignObjectRight {
+    width: 50%;
+    float: right;
+    position: relative;
+    /*top: 70px;*/
+}
+
+#foreignObjectRight .kernelexpression {
+    padding-top: 23px;
+}
+
+.parameterList {
+    /*margin-top: 0px;*/
+    /*float: left;*/
+    width: 80%;
+    /*position: absolute;*/
+    margin: auto;
+}
+
+.parameter {
+    padding-top: 8px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.parameterSliderWrapper {
+    /*width: 70%;*/
+    padding-top: 6px;
+    flex-grow: 1
+}
+
+.parameterValueWrapper {
+    width: 40%;
+    padding-left: 10px;
+    text-align: left;
+    /*flex-grow: 1;*/
+    font-size: 18px;
+    /*display: inline-block;*/
+    /*float:right;*/
+}
+
+.parameterValue {
+    font: normal 1.21em KaTeX_Main,Times New Roman,serif;
+    line-height: 1.2;
+    text-indent: 0;
+    text-rendering: auto;
+}
+
+.parameterSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.parameterSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #2f2f6a;
+    cursor: pointer;
+}
+
+.parameterSlider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #2f2f6a;
+    cursor: pointer;
+}
+
+
+.output {
+    display: block;
+    font-size: 19px;
+    font-family: "Latin Modern Math";
+    /*font-family: KaTeX_Math;*/
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.slidercontainer {
+    width: 100%;
+    max-width: 400px;
+    background: #75a3a3;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.slidercontainer h2 {
+    /*margin-top: 30px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    background: #527a7a;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+
+
+/* Normal stuff */
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+body header {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+body header a {
+    display: block;
+    padding: 20px;
+}
+
+body header a img {
+    width: 86px;
+    height: 82px;
+}
