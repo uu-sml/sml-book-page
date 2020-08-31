@@ -614,7 +614,7 @@ const likelihood = foreignObjectRight.append("div")
     .attr("class", "kernelfunctionexpression");
 
 katex.render(
-    "y \\mid f(x) \\sim \\mathcal{N}(f(x) , \\sigma^2)",
+    "y \\mid f(x) \\sim \\mathcal{N}(f(x) , \\sigma_n^2)",
     likelihood.node());
 
 
@@ -641,7 +641,7 @@ katex.render(
         .attr("class", "parameterText");
 
     katex.render(
-        "\\sigma^2"+"=",
+        "\\sigma_n^2"+"=",
         parameterText.node()
         )
 
