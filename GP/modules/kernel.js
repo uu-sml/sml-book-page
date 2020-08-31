@@ -235,7 +235,7 @@ class Matern5Kernel extends Kernel {
             },
             { // kernelInfo
                 html: undefined,
-                latex: "\\sigma^2 \\left( 1 + \\frac{\\sqrt{5} |x - x^\\prime|}{\\ell} + \\frac{5(x^\\prime-x^\\prime)^2}{3 \\ell^2}\\right) e^{-\\frac{\\sqrt{5}|x - x^\\prime|}{\\ell}}"
+                latex: "\\sigma^2 \\left( 1 + \\frac{\\sqrt{5} |x - x^\\prime|}{\\ell} + \\frac{5(x-x^\\prime)^2}{3 \\ell^2}\\right) e^{-\\frac{\\sqrt{5}|x - x^\\prime|}{\\ell}}"
             });
     }
 }

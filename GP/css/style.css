@@ -151,14 +151,14 @@
 
 
 #foreignObjectLeft {
-    width: 50%;
+    width: 55%;
     float: left;
     position: relative;
     /*top: 70px;*/
 }
 
 #foreignObjectRight {
-    width: 50%;
+    width: 45%;
     float: right;
     position: relative;
     /*top: 70px;*/
