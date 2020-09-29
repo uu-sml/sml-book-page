@@ -37,9 +37,9 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - Evaluation for imbalanced and asymmetric classification problems
 5. **Learning parametric models**
    - Loss functions
-   - Regularization
    - Parameter optimization
    - Optimization with large datasets
+   - Regularization
 6. **Neural networks and deep learning**
    - Neural networks
    - Convolutional neural networks
