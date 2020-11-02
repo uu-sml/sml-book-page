@@ -7,7 +7,7 @@ description: An upcoming textbook
 
 When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will be published by [Cambridge University Press](https://www.cambridge.org/) in 2021.
 
-[Andreas Lindholm](http://www.it.uu.se/katalog/andsv164/),
+Andreas Lindholm,
 [Niklas Wahlström](https://www.it.uu.se/katalog/nikwa778/),
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/)
