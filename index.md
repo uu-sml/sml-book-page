@@ -74,7 +74,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
     - More unsupervised methods: k-means and PCA
 
 
-If you want to cite the book, you may cite it as
+**If you want to cite the book,** you can cite it as
 
 {% highlight tex %}
 @book{smlbook,
