@@ -74,6 +74,17 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
     - More unsupervised methods: k-means and PCA
 
 
+If you want to cite the book, you may cite it as
+
+{% highlight tex %}
+@book{smlbook,
+   author = {Lindholm, Andreas and Wahlstr\"om, Niklas and Lindsten, Fredrik and Sch\"on, Thomas B.},
+   year = 2020,
+   title = {Supervised Machine Learning},
+   URL={https://smlbook.org},
+}
+{% endhighlight %}
+
 ## Exercise material
 
 Will eventually be added to this page. Meanwhile you may have a look at the material for our [course at Uppsala University](http://www.it.uu.se/edu/course/homepage/sml/).
