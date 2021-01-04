@@ -10,7 +10,7 @@ When we developed the course [Statistical Machine Learning](http://www.it.uu.se/
 Andreas Lindholm,
 [Niklas Wahlström](https://www.it.uu.se/katalog/nikwa778/),
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
-[Thomas B. Schön](http://user.it.uu.se/~thosc112/)
+[Thomas B. Schön](http://user.it.uu.se/~thosc112/) 
 
 A draft of the book is available below. **We will keep a PDF of the book freely available also after its publication.**
 
