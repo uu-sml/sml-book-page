@@ -20,30 +20,36 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 ## Table of Contents
 
 1. **Introduction**
+   - The machine learning problem
+   - Machine learning concepts via examples
+   - About this book   
 2. **Supervised machine learning: a first approach**
-   - The supervised learning problem
+   - Supervised machine learning
    - A distance-based method: k-NN
    - A rule-based method: Decision trees
 3. **Basic parametric models for regression and classification**
    - Linear regression
    - Classification and logistic regression
    - Polynomial regression and regularization
-   - Nonlinear retression and generalized linear models
+   - Generalized linear models
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
    - The training error–generalization gap decomposition
    - The bias-variance decomposition
-   - Evaluation for imbalanced and asymmetric classification problems
+   - Additional tools for evaluating binary classifiers
 5. **Learning parametric models**
-   - Loss functions
+   - Principles pf parametric modelling
+   - Loss functions and likelihood-based models
+   - Regularization   
    - Parameter optimization
    - Optimization with large datasets
-   - Regularization
+   - Hyperparameter optimization
 6. **Neural networks and deep learning**
-   - Neural networks
+   - The neural network model
+   - Training a neural network   
    - Convolutional neural networks
-   - Training a neural network
+   - Dropout
 7. **Ensemble methods: Bagging and boosting**
    - Bagging
    - Random forests
