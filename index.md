@@ -1,8 +1,8 @@
 ---
 layout: default
-title: The Supervised Machine Learning book
+title: Machine Learning - A First Course for Engineers and Scientists
 tagline: Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten and Thomas B. Schön
-description: An upcoming textbook
+description: A textbook on machine learning
 ---
 
 When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will be published by [Cambridge University Press](https://www.cambridge.org/) in 2021.
@@ -61,17 +61,21 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - The Gaussian process [**Online material: Gaussian process visualization**](GP/index.html)
    - Practial aspects of the Gaussian process
    - Other Bayesian methods in machine learning
-10. **User aspects of machine learning**
+10. **Generative models and learning from unlabeled data**
+    - The Gaussian mixture model and discriminant analysis
+    - Cluster analysis
+    - Deep generative models
+    - Representation learning and dimensionality reduction
+11. **User aspects of machine learning**
     - Defining the machine learning problem
     - Improving a machine learning model
     - What if we cannot collect more data?
     - Practical data issues
     - Can I trust my machine learning model?
-    - Ethics in machine learning (not in draft yet)
-11. **Generative models and learning from unlabeled data**
-    - The Gaussian mixture model and the LDA & QDA classifiers
-    - The Gaussian mixture model when some or all labels are missing
-    - More unsupervised methods: k-means and PCA
+12. **Ethics in machine learning** (by David Sumpter)
+    - Fairness and error functions
+    - Misleading claims about performance
+    - Limitations of training data
 
 
 **If you want to cite the book,** you can cite it as
@@ -79,8 +83,8 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 {% highlight tex %}
 @book{smlbook,
    author = {Lindholm, Andreas and Wahlstr\"om, Niklas and Lindsten, Fredrik and Sch\"on, Thomas B.},
-   year = 2020,
-   title = {Supervised Machine Learning},
+   year = 2021,
+   title = {Machine Learning - A First Course for Engineers and Scientists},
    URL={https://smlbook.org},
 }
 {% endhighlight %}
