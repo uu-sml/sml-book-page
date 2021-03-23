@@ -19,7 +19,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 ## Table of Contents
 
-1. **Introduction** (only partly in draft)
+1. **Introduction**
 2. **Supervised machine learning: a first approach**
    - The supervised learning problem
    - A distance-based method: k-NN
@@ -28,7 +28,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
    - Linear regression
    - Classification and logistic regression
    - Polynomial regression and regularization
-   - Nonlinear retression and generalized linear models (only partly in draft)
+   - Nonlinear retression and generalized linear models
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
@@ -72,7 +72,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
     - What if we cannot collect more data?
     - Practical data issues
     - Can I trust my machine learning model?
-12. **Ethics in machine learning** (by David Sumpter)
+12. **Ethics in machine learning** (by [David Sumpter](https://katalog.uu.se/empinfo/?id=N7-525))
     - Fairness and error functions
     - Misleading claims about performance
     - Limitations of training data
