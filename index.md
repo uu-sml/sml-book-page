@@ -85,15 +85,15 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 ## Some reviews
 
-> "An authoritative treatment of modern machine learning, covering a broad range of topics, for readers who want to use and understand machine learning." **Bernhard Schölkopf, Max Planck Institute for Intelligent Systems**
+_"An authoritative treatment of modern machine learning, covering a broad range of topics, for readers who want to use and understand machine learning." **Bernhard Schölkopf, Max Planck Institute for Intelligent Systems**_
 
-> "This book provides the perfect introduction to modern machine learning, with an ideal balance between mathematical depth and breadth. Its outstanding clarity and many illustrations make it a perfect tool for self-learning or as a textbook for an introductory machine learning class." **Francis Bach, Inria Ecole Normale Supérieure**
+_"This book provides the perfect introduction to modern machine learning, with an ideal balance between mathematical depth and breadth. Its outstanding clarity and many illustrations make it a perfect tool for self-learning or as a textbook for an introductory machine learning class." **Francis Bach, Inria Ecole Normale Supérieure**_
 
-> "Lucid and engaging, this book is a brilliant companion to anyone with a numerate background who wants to know what really goes on under the hood in supervised learning. The core theory and rich illustrative examples enable practitioners navigate the jungle of modern machine learning." **Carl Edward Rasmussen, University of Cambridge**
+_"Lucid and engaging, this book is a brilliant companion to anyone with a numerate background who wants to know what really goes on under the hood in supervised learning. The core theory and rich illustrative examples enable practitioners navigate the jungle of modern machine learning." **Carl Edward Rasmussen, University of Cambridge**_
 
-> "This book provides an excellent introduction to machine learning for engineers and scientists. It covers the main techniques in this exciting area ranging from basic approaches, such as linear regression and principal component analysis, to modern deep learning and generative modelling techniques. The authors have managed to find the right balance between academic rigor, intuition and applications. Required reading for any newcomer interested in this field!" **Arnaud Doucet, University of Oxford**
+_"This book provides an excellent introduction to machine learning for engineers and scientists. It covers the main techniques in this exciting area ranging from basic approaches, such as linear regression and principal component analysis, to modern deep learning and generative modelling techniques. The authors have managed to find the right balance between academic rigor, intuition and applications. Required reading for any newcomer interested in this field!" **Arnaud Doucet, University of Oxford**_
 
-> "This book strikes a very good balance between accessibility and rigour. It will be a very good companion for the mathematically trained who want to understand the hows and whats of machine learning." **Ole Winther, University of Copenhagen and Technical University of Denmark**
+_"This book strikes a very good balance between accessibility and rigour. It will be a very good companion for the mathematically trained who want to understand the hows and whats of machine learning." **Ole Winther, University of Copenhagen and Technical University of Denmark**_
 
 
 **If you want to cite the book,** you can cite it as
