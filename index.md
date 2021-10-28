@@ -17,8 +17,7 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 [**Latest draft of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
 
-> "An authoritative treatment of modern machine learning, covering a broad range of topics, for readers who want to use and understand machine learning."
-Bernhard Schölkopf - Max Planck Institute for Intelligent Systems
+> "An authoritative treatment of modern machine learning, covering a broad range of topics, for readers who want to use and understand machine learning." **Bernhard Schölkopf - Max Planck Institute for Intelligent Systems**
 
 ## Table of Contents
 
