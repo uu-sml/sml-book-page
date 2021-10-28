@@ -101,8 +101,9 @@ _"This book strikes a very good balance between accessibility and rigour. It wil
 {% highlight tex %}
 @book{smlbook,
    author = {Lindholm, Andreas and Wahlstr\"om, Niklas and Lindsten, Fredrik and Sch\"on, Thomas B.},
-   year = 2021,
+   year = 2022,
    title = {Machine Learning - A First Course for Engineers and Scientists},
+   publisher = {Cambridge University Press}
    URL={https://smlbook.org},
 }
 {% endhighlight %}
