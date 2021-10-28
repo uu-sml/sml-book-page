@@ -5,7 +5,7 @@ tagline: Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten and Thomas B. Sch
 description: An upcoming textbook on machine learning 
 ---
 
-When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will be published by [Cambridge University Press](https://www.cambridge.org/) in 2021.
+When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will be published by [Cambridge University Press](https://www.cambridge.org/highereducation/books/machine-learning/30AC30764CCF1ACBF86188BECD1B00AE) in 2022.
 
 Andreas Lindholm,
 [Niklas Wahlström](https://www.it.uu.se/katalog/nikwa778/),
@@ -16,6 +16,9 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 
 [**Latest draft of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
+
+> "An authoritative treatment of modern machine learning, covering a broad range of topics, for readers who want to use and understand machine learning."
+Bernhard Schölkopf - Max Planck Institute for Intelligent Systems
 
 ## Table of Contents
 
