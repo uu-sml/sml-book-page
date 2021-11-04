@@ -110,7 +110,7 @@ _"This book strikes a very good balance between accessibility and rigour. It wil
 
 ## Exercise material
 
-Will eventually be added to this page. Meanwhile you may have a look at the material for our [course at Uppsala University](http://www.it.uu.se/edu/course/homepage/sml/).
+Will eventually be added to this page. Meanwhile you may have a look at the material for our [course at Uppsala University](https://github.com/uu-sml/course-sml-public).
 
 ## [Report mistakes and give feedback](https://github.com/uu-sml/sml-book-page/issues)
 (A free GitHub account is required)
