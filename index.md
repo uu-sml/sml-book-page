@@ -16,7 +16,8 @@ A draft of the book is available below. **We will keep a PDF of the book freely 
 
 
 [**Latest draft of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
-_We continuously receive valuable feedback from our readers. However, the manuscript is right now also processed by the publisher. Unless any serious errors are found, we will await the publishing process before we release an updated version here._
+
+_We continuously receive valuable feedback from our readers that we attempt to process. However, the manuscript is right now also being processed by the publisher. Unless any serious errors are found, we will await the publishing process before we release an updated version here._
 
 ## Table of Contents
 
