@@ -115,5 +115,5 @@ _"This book strikes a very good balance between accessibility and rigour. It wil
 Will eventually be added to this page. Meanwhile you may have a look at the material for our [course at Uppsala University](https://github.com/uu-sml/course-sml-public).
 
 ## Report mistakes and give feedback
-Please report any mistakes or feedback [using the gitHub issue tracker]((https://github.com/uu-sml/sml-book-page/issues)) (A free GitHub account is required)
+Please report any mistakes or feedback [using the gitHub issue tracker](https://github.com/uu-sml/sml-book-page/issues) (A free GitHub account is required)
 We appreciate all help in improving the text!
