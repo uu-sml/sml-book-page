@@ -107,7 +107,7 @@ _"This book strikes a very good balance between accessibility and rigour. It wil
    author = {Lindholm, Andreas and Wahlstr\"om, Niklas and Lindsten, Fredrik and Sch\"on, Thomas B.},
    year = 2022,
    title = {Machine Learning - A First Course for Engineers and Scientists},
-   publisher = {Cambridge University Press}
+   publisher = {Cambridge University Press},
    URL={https://smlbook.org},
 }
 {% endhighlight %}
