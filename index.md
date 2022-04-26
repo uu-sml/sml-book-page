@@ -2,10 +2,10 @@
 layout: default
 title: Machine Learning - A First Course for Engineers and Scientists
 tagline: Andreas Lindholm, Niklas Wahlström, Fredrik Lindsten and Thomas B. Schön
-description: An upcoming textbook on machine learning 
+description: A new textbook on machine learning 
 ---
 
-When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It will be published by [Cambridge University Press](https://www.cambridge.org/highereducation/books/machine-learning/30AC30764CCF1ACBF86188BECD1B00AE) in 2022.
+When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It was published by Cambridge University Press in 2022, and you can [order printed books from them](https://www.cambridge.org/highereducation/books/machine-learning/30AC30764CCF1ACBF86188BECD1B00AE) or through most bookstores.
 
 ![Book cover](cover_small.png)
 
@@ -14,12 +14,9 @@ Andreas Lindholm,
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/) 
 
-A draft of the book is available below. **We will keep a PDF of the book freely available also after its publication.**
+A PDF draft of the book is available here. [**Latest draft of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
 
-
-[**Latest draft of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
-
-_We continuously receive valuable feedback from our readers that we attempt to process. However, the manuscript is right now also being processed by the publisher. Unless any serious errors are found, we will await the publishing process before we release an updated version here._
+_This PDF draft has not yet been updated with all copy-editing that the printed copy has undergone. (All important technical details are however consistent between this PDF and the printed copy.) We hope that we soon will be able to make this PDF more consistent with the printed book._
 
 ## Table of Contents
 
