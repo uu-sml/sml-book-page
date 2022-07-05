@@ -14,9 +14,9 @@ Andreas Lindholm,
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/) 
 
-A PDF draft of the book is available here. [**Latest draft of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
+A PDF draft of the book is available here. [**Latest draft version of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
 
-_This PDF draft has not yet been updated with all copy-editing that the printed copy has undergone. (All important technical details are however consistent between this PDF and the printed copy.) We hope that we soon will be able to make this PDF more consistent with the printed book._
+_The PDF is now updated. It is similar (although not identical) to the printed book, with the same page and equation numbering etc._
 
 ## Table of Contents
 
