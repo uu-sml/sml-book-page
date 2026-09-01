@@ -19,21 +19,22 @@ PDF drafts of the book are available here:
 - [**Draft of the 1st edition**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
 
 
-## Table of Contents in 1st edition
+## Table of Contents in 2nd edition
 
 1. **Introduction**
-   - The machine learning problem
-   - Machine learning concepts via examples
+   - Machine Learning Exemplified
    - About this book   
 2. **Supervised machine learning: a first approach**
    - Supervised machine learning
    - A distance-based method: k-NN
    - A rule-based method: Decision trees
+   - Self-supervised learning
 3. **Basic parametric models for regression and classification**
    - Linear regression
    - Classification and logistic regression
    - Polynomial regression and regularization
    - Generalized linear models
+   - Generating outputs by sampling
 4. **Understanding, evaluating and improving the performance**
    - Expected new data error: performance in production
    - Estimating the expected new data error
@@ -43,49 +44,56 @@ PDF drafts of the book are available here:
 5. **Learning parametric models**
    - Principles pf parametric modelling
    - Loss functions and likelihood-based models
-   - Regularization   
-   - Parameter optimization
-   - Optimization with large datasets
+   - Regularisation   
+   - Parameter optimisation
+   - Optimisation with large datasets
    - Hyperparameter optimization
 6. **Neural networks and deep learning**
    - The neural network model
-   - Training a neural network   
-   - Convolutional neural networks
+   - Training a neural network
+   - Going deeper: Nornmalisation and residual connections
    - Dropout
-7. **Ensemble methods: Bagging and boosting**
+7. **Deep learning architectures: CNN and Transformers**
+   - The building blocks for the convolutional neural network
+   - The full convolutional neural network
+   - Working with Text
+   - The transformer architecture
+   - Large language models
+8. **Ensemble methods: Bagging and boosting**
    - Bagging
    - Random forests
    - Boosting and AdaBoost
    - Gradient boosting
-8. **Nonlinear input transformations and kernels**
+9. **Nonlinear input transformations and kernels**
    - Creating features by nonlinear input transformations
    - Kernel ridge regdression
    - Support vector regression
    - Kernel theory
    - Support vector classification
-9. **The Bayesian approach and Gaussian processes** 
+10. **The Bayesian approach and Gaussian processes** 
    - The Bayesian idea
    - Bayesian linear regression
    - The Gaussian process [**Online material: Gaussian process visualization**](GP/index.html)
    - Practial aspects of the Gaussian process
    - Other Bayesian methods in machine learning
-10. **Generative models and learning from unlabeled data**
-    - The Gaussian mixture model and discriminant analysis
+11. **Generative models**
+    - Learning a generative model and using it for classification
+    - Beyond supervised data: Semi-supervised learning
     - Cluster analysis
-    - Deep generative models
-    - Representation learning and dimensionality reduction
-11. **User aspects of machine learning**
+12. **Deep Generative Models and Representation Learning**
+    - Deep generative modelling
+    - Representation learning
+    - Latent representations for dimensionality reduction: PCA
+13. **User aspects of machine learning**
     - Defining the machine learning problem
     - Improving a machine learning model
     - What if we cannot collect more data?
     - Practical data issues
     - Can I trust my machine learning model?
-12. **Ethics in machine learning** (by [David Sumpter](https://katalog.uu.se/empinfo/?id=N7-525))
-    - Fairness and error functions
-    - Misleading claims about performance
-    - Limitations of training data
+    - Foundation models
+14. **Ethics in machine learning** -- _work in progress_
 
-## Some reviews
+## Some reviews of the 1st edition
 
 _"An authoritative treatment of modern machine learning, covering a broad range of topics, for readers who want to use and understand machine learning." **Bernhard Schölkopf, Max Planck Institute for Intelligent Systems**_
 
@@ -96,6 +104,8 @@ _"Lucid and engaging, this book is a brilliant companion to anyone with a numera
 _"This book provides an excellent introduction to machine learning for engineers and scientists. It covers the main techniques in this exciting area ranging from basic approaches, such as linear regression and principal component analysis, to modern deep learning and generative modelling techniques. The authors have managed to find the right balance between academic rigor, intuition and applications. Required reading for any newcomer interested in this field!" **Arnaud Doucet, University of Oxford**_
 
 _"This book strikes a very good balance between accessibility and rigour. It will be a very good companion for the mathematically trained who want to understand the hows and whats of machine learning." **Ole Winther, University of Copenhagen and Technical University of Denmark**_
+
+_"First, the book is readable. There are some theoretical analyses or math equations. But authors will give the intuitions or figures to explain it. I really love the book. I hope in the next edition more topics are covered in the book. All illustrated figures are colorful." **kein_liao, Amazon buyer**_
 
 
 **If you want to cite the book,** you can cite it as
