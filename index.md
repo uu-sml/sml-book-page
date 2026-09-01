@@ -14,11 +14,12 @@ Andreas Lindholm,
 [Fredrik Lindsten](https://liu.se/medarbetare/freli29), and
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/) 
 
-A PDF draft of the book is available here. [**Latest draft version of the book**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
+PDF drafts of the book are available here:
+- NEW! [**Latest draft of 2nd edition** (not yet in print; chapter 14 is work in progress)](book/sml-book-2nd-edition-draft-latest.pdf)
+- [**Draft of the 1st edition**](book/sml-book-draft-latest.pdf) ([older versions &gt;&gt;](https://github.com/uu-sml/sml-book-page/commits/master/book))
 
-_The PDF is now updated. It is similar (although not identical) to the printed book, with the same page and equation numbering etc._
 
-## Table of Contents
+## Table of Contents in 1st edition
 
 1. **Introduction**
    - The machine learning problem
