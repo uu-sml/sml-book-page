@@ -7,7 +7,7 @@ description: A new textbook on machine learning
 
 When we developed the course [Statistical Machine Learning](http://www.it.uu.se/edu/course/homepage/sml/) for engineering students at Uppsala University, we found no appropriate textbook, so we ended up writing our own. It was published by Cambridge University Press in 2022, and you can [order printed books from them](https://www.cambridge.org/highereducation/books/machine-learning/30AC30764CCF1ACBF86188BECD1B00AE) or through most bookstores.
 
-**We are currently working on a 2nd edition and appreciate all feedback we receive!**
+***We are currently working on a 2nd edition and appreciate all feedback we receive!***
 
 ![Book cover](cover_small.png)
 
@@ -93,7 +93,7 @@ PDF drafts of the book are available here:
     - Practical data issues
     - Can I trust my machine learning model?
     - Foundation models
-14. **Ethics in machine learning** -- _work in progress_
+14. **Ethics and societal aspects of machine learning** -- _work in progress_
 
 ## Some reviews of the 1st edition
 
