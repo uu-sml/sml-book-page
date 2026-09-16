@@ -536,8 +536,7 @@ function changeKernel(idx) {
         kernelFunctionExpression.node(),
         {
             displayMode: false,
-            fleqn: false,
-            macros: ""
+            fleqn: false
         }
     );
     
